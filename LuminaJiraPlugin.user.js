@@ -7,8 +7,8 @@
 // @match        *://*.atlassian.net/browse/*
 // @grant        GM_xmlhttpRequest
 // @run-at       document-idle
-// @updateURL    https://github.com/DevFizu/LuminaJiraPlugin/raw/refs/heads/main/LuminaJiraPlugin.user.js
-// @downloadURL  https://github.com/DevFizu/LuminaJiraPlugin/raw/refs/heads/main/LuminaJiraPlugin.user.js
+// @updateURL    https://raw.githubusercontent.com/DevFizu/LuminaJiraPlugin/main/LuminaJiraPlugin.user.js
+// @downloadURL  https://raw.githubusercontent.com/DevFizu/LuminaJiraPlugin/main/LuminaJiraPlugin.user.js
 // ==/UserScript==
 
 (function () {
