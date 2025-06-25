@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Lumina Jira Plugin
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Inserts icons to update estimation and trigger an external webhook via API automatically only for Epics in Jira Cloud UI.
 // @match        *://*.atlassian.net/browse/*
 // @grant        GM_xmlhttpRequest
@@ -89,11 +89,11 @@
                     if (response.status === 200 || response.status === 204) {
                         showToast('✅ Webhook enviado para ' + jiraId);
                     } else {
-                        showToast('❌ Error en webhook: ' + response.status, true);
+                        showToast('❌ Error en suma: ' + response.status, true);
                     }
                 },
                 onerror: (error) => {
-                    alert('❌ Error en la llamada al webhook');
+                    alert('❌ Error en la llamada');
                     console.error(error);
                 }
             });
