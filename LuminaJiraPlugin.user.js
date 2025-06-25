@@ -1,7 +1,8 @@
 // ==UserScript==
 // @name         Lumina Jira Plugin
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.2
+// @author       Gustavi Pérez
 // @description  Inserts icons to update estimation and trigger an external webhook via API automatically only for Epics in Jira Cloud UI.
 // @match        *://*.atlassian.net/browse/*
 // @grant        GM_xmlhttpRequest
